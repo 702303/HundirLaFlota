@@ -16,6 +16,12 @@ public class TestHundirLaFlota {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Tablero t = new Tablero(12,12);
+        String jugador = "Florin";
+        
+        Partida partida = new Partida (jugador, t);
+        System.out.println(partida.generarBarcoAleatorio());
     }
-    
+
 }
